@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.h5
+*.pickle
+*.pkl
+.DS_Store
+.env
+venv/
+my_venv/
+PlantVillage/
+.ipynb_checkpoints/
