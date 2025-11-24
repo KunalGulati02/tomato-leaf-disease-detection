@@ -74,7 +74,7 @@ The hybrid model achieved:
 - **Lower inference time** than CNN-only models  
 - **Stable performance** on noisy samples  
 
-More details are covered in the research paper located under `paper/IC-AMSI-2024.pdf`.
+More details are covered in the research paper located under `paper/Final Paper.pdf`.
 
 ---
 
