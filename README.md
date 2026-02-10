@@ -115,7 +115,7 @@ python src/model.py
 ## Research Publication
 This project was presented at:
 
-### ** IC-AMSI-2024 — International Conference on Advances in Multidisciplinary Sciences and Innovations**
+### IC-AMSI-2024 — International Conference on Advances in Multidisciplinary Sciences and Innovations
 
 Read the paper in `paper/Final Paper.pdf`.
 
