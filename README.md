@@ -1,12 +1,12 @@
 
-# 🌿 Tomato Leaf Disease Detection (CNN + KNN Hybrid Model)
+# Tomato Leaf Disease Detection (CNN + KNN Hybrid Model)
 
 This project detects diseases in tomato leaves using a hybrid **Convolutional Neural Network (CNN)** for feature extraction and **K-Nearest Neighbors (KNN)** for classification.  
 The work was presented at the **IC-AMSI-2024 International Conference**.
 
 ---
 
-## 🚀 Overview
+## Overview
 Tomato crops suffer from multiple bacterial, fungal, and viral diseases. Early detection helps prevent losses.  
 This project uses:
 - CNN for deep feature extraction  
@@ -17,15 +17,15 @@ This project uses:
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
-### **1️⃣ CNN (Convolutional Neural Network)**
+### **1️. CNN (Convolutional Neural Network)**
 Extracts high-level image features such as:
 - Texture  
 - Lesion patterns  
 - Color distortions  
 
-### **2️⃣ KNN (K-Nearest Neighbors)**
+### **2️. KNN (K-Nearest Neighbors)**
 Uses CNN features for classification:
 - Fast inference  
 - Low complexity  
@@ -50,7 +50,7 @@ tomato-leaf-disease-detection/
 
 ---
 
-## 📊 Dataset
+## Dataset
 This project uses the **PlantVillage Tomato Leaf Dataset**, which includes categories like:
 
 - Early Blight  
@@ -62,13 +62,13 @@ This project uses the **PlantVillage Tomato Leaf Dataset**, which includes categ
 - Healthy Leaves  
 
 Dataset download link:  
-👉 https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset  
+https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset  
 
 (The dataset is not included in this repo due to size.)
 
 ---
 
-## 📈 Results
+## Results
 The hybrid model achieved:
 - **High accuracy** across classes  
 - **Lower inference time** than CNN-only models  
@@ -78,7 +78,7 @@ More details are covered in the research paper located under `paper/Final Paper.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 ### **Languages**
 - Python
@@ -93,29 +93,29 @@ More details are covered in the research paper located under `paper/Final Paper.
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
-### **1️⃣ Install dependencies**
+### **1️. Install dependencies**
 ```
 pip install -r requirements.txt
 ```
 
-### **2️⃣ Open the training notebook**
+### **2️. Open the training notebook**
 ```
 jupyter notebook notebooks/model.ipynb
 ```
 
-### **3️⃣ Run the Python script (optional)**
+### **3️. Run the Python script (optional)**
 ```
 python src/model.py
 ```
 
 ---
 
-## 📄 Research Publication
+## Research Publication
 This project was presented at:
 
-### **📌 IC-AMSI-2024 — International Conference on Advances in Multidisciplinary Sciences and Innovations**
+### ** IC-AMSI-2024 — International Conference on Advances in Multidisciplinary Sciences and Innovations**
 
 Read the paper in `paper/Final Paper.pdf`.
 
